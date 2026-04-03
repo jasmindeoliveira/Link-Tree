@@ -12,7 +12,7 @@
 body{
    
     background-image: url("../recursos/img/fundov.jpg");
-    background-size: 400px ;
+    background-size: 2000px;
  
     display: flex;
     flex-direction: column;
@@ -23,21 +23,19 @@ body{
  
 img{
  
-width: 200px;
-height: 200px;
- 
-border-radius: 200px;
-border:10px solid rgb(92, 243, 185); /*Engloba todos os de cima*/
- 
-box-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border:10px solid rgb(92, 243, 185); /*Engloba todos os de cima*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
  
 }
  
  
 .titulos {
- 
-color: rgb(0, 0, 0);
-text-align: center;
+
+    color: rgb(0, 0, 0);
+    text-align: center;
  
 }
  
@@ -70,9 +68,9 @@ h3{
 }
  
 figure{
-   
-display: flex;
-justify-content: center;
+
+    display: flex;
+    justify-content: center;
  
 }
  
@@ -120,17 +118,24 @@ justify-content: center;
  
 .icones{
  
-margin: 10px;
+    margin: 10px;
 
- 
 }
  
 svg:hover{
  
     fill: rgb(116, 241, 158);
     cursor: pointer;
- 
     transform: scale(1.2);
  
- 
-    }
+}
+
+
+#modoEscuro{
+
+    position: absolute;
+    top: 2%;
+    right: 10px;
+
+
+}
