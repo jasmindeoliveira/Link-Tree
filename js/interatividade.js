@@ -23,18 +23,26 @@ $(function(){
         if (modoEscuro == false){
 
             botoes.css ("background-color", "black");
-            botoes.css ("color", "rgb(116, 241, 158)");
+            botoes.css ("color", "rgb(238, 177, 84)");
+
+            fundo.css("background-image","url('https://i.pinimg.com/1200x/5d/25/c0/5d25c0059cc7cdc3cb12a2baea651785.jpg')")
+
+            titulo.css ("color", "rgb(238, 177, 84)");
+            subtitulo.css ("color", "rgb(238, 177, 84)");
+            icones.css ("fill", "rgb(238, 177, 84)");
+        
 
             modoEscuro = true;
 
         }else{
 
-            botoes.css ("background-color", "rgb(116, 241, 158)");
-            botoes.css ("color", "black");
+            botoes.css ("background-color", "black)");
+            botoes.css ("color", "rgb(238, 177, 84)");
 
             modoEscuro = false;
 
         }
+
 
     });
     
