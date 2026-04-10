@@ -13,6 +13,7 @@ $(function(){
     var fundo = $ ("body");
     var botao_modoEscuro = $ ("#modoEscuro")
 
+
     var modoEscuro = false
 
 
@@ -25,19 +26,31 @@ $(function(){
             botoes.css ("background-color", "black");
             botoes.css ("color", "rgb(238, 177, 84)");
 
-            fundo.css("background-image","url('https://i.pinimg.com/1200x/5d/25/c0/5d25c0059cc7cdc3cb12a2baea651785.jpg')")
+          
+            fundo.css("background-image","url('../recursos/img/jasmins2.png')");
+
 
             titulo.css ("color", "rgb(238, 177, 84)");
             subtitulo.css ("color", "rgb(238, 177, 84)");
             icones.css ("fill", "rgb(238, 177, 84)");
-        
+            
 
             modoEscuro = true;
 
+
         }else{
 
-            botoes.css ("background-color", "black)");
-            botoes.css ("color", "rgb(238, 177, 84)");
+            botoes.css ("background-color", "rgb(238, 177, 84)");
+            botoes.css ("color", "black");
+
+
+            fundo.css ("background-image", "url('../recursos/img/jasmins.png')");
+
+            
+            titulo.css ("color", "black");
+            subtitulo.css ("color", "black");
+            icones.css ("fill", "black");
+           
 
             modoEscuro = false;
 

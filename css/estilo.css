@@ -54,18 +54,9 @@ h2{
     font-family: "Betania Patmos In";
     font-weight: 400;
     font-style: normal;
- 
     margin: 0px 0px 10px 0px;
 }
 
-h3{
-    font-size: 25px;
-    font-family: "Betania Patmos In", cursive;
-    font-weight: 400;
-    font-style: normal;
- 
-    margin: 0px 0px 50px 0px;
-}
  
 figure{
 
@@ -84,7 +75,11 @@ figure{
     font-size: 30px;
     margin:10px;
     padding: 20px;
-    width: 400px;
+
+
+    width: 500px;
+
+
     border-radius: 40px;
     box-shadow: 5px 5px 10px rgb(0, 3, 3);
     transition: 0.3s;
@@ -139,3 +134,30 @@ svg:hover{
 
 
 }
+
+@media (max-width: 800px){
+
+    .botao{
+        
+        width: 400px;
+        
+
+    }
+
+}
+
+@media (max-width: 600px){ /*configurações css para mobile (isto é, transformar para celular, tablet...)*/
+
+    .botao{
+        
+        width: 350px;
+        
+
+    }
+
+}
+
+
+
+
+
