@@ -27,7 +27,7 @@ $(function(){
             botoes.css ("color", "rgb(238, 177, 84)");
 
           
-            fundo.css("background-image","url('../recursos/img/jasmins2.png')");
+            fundo.css("background-image", "url('../recursos/img/jasmins2.png')");
 
 
             titulo.css ("color", "rgb(238, 177, 84)");
